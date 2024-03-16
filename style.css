@@ -40,18 +40,21 @@
 
 /* ________________starting atraction section  styles ______________*/
 
-.atraction_section{
-background: linear-gradient(217.64deg, var(--secondery-color) -5.84%, var(--main-color) 106.73%) , 
-            url("img/background.png") no-repeat;
-color: white;
+.attraction_section{
+    width: 683px;
+    height: 768px;
+    background: linear-gradient(217.64deg, #9181F4 -5.84%, #5038ED 106.73%),
+    url(./img/thunderbolit.png) no-repeat center fixed;
+    color: white;
+   
+
+
 
   
 }
-.atraction_section .attraction_content{
+.attraction_section .attraction_content{
     width: 412px;
     height: 524px;
-    top: 122px;
-    left: 819px;
     border-radius: 46px;   
     border: 1px solid;
     background: #FFFFFF36;
@@ -65,19 +68,36 @@ font-size: 32px;
 font-weight: 700;
 line-height: 46px;
 letter-spacing: 0em;
-text-align: left;
 padding: 20px 0 0 20px;
 
 }
-.attraction_content .woman-img img{
+.attraction_content .woman{
     position: relative;
     right: 270px;
     top: -231px;
     width: 785px;
     height: 524px;
-    height: 524px;
+   
+}
 
 
+ .stamp {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    position: relative;
+    top: 165px;
+    left: -450px;
+   
+
+}
+.stamp .thunder{
+    width: 42px;
+    height: 42px;
 
 }
 
@@ -147,7 +167,8 @@ padding: 20px 0 0 20px;
     width: 124px;
     height: 52px;
     border-radius:16px;
-    background-color: var(--main-color);  
+    background:linear-gradient(99.78deg, var(--secondery-color) -5.85%,var(--main-color) 109.55%);
+ 
     cursor: pointer; 
     border: none;
     color: white;
