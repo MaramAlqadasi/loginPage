@@ -1,5 +1,22 @@
 *{
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+
+
+}
+:root{
+    main-color:#5038ED ;
+    /* background: linear-gradient(217.64deg, #9181F4 -5.84%,main-color 106.73%); */
+
+}
+body{
+font-family: Poppins;
+
+
+}
+ img{
+    width: 30px;
+    height: 30px;
+
 }
