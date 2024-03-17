@@ -17,7 +17,9 @@
     width: 100vw;
     margin: 20px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 24px;
+   
+   
      
 }
 /* ________________starting sub content  styles ______________*/
@@ -34,11 +36,11 @@
 /* ________________starting atraction section  styles ______________*/
 
 .asid_section{
-    width: 683px;
-    height: 768px;
-    background: linear-gradient(217.64deg, #9181F4 -5.84%, #5038ED 106.73%),
-    url(./img/thunderbolit.png) no-repeat center fixed;
+    
+    background: linear-gradient(217.64deg, var(--secondery-color) -5.84%, var(--main-color) 106.73%),
+    url(./img/background.png) no-repeat;
     color: white; 
+    padding: 15px;
 }
 .asid_section .asid_content{
     width: 412px;
@@ -154,7 +156,6 @@ padding: 20px 0 0 20px;
     height: 52px;
     border-radius:16px;
     background:linear-gradient(99.78deg, var(--secondery-color) -5.85%,var(--main-color) 109.55%);
- 
     cursor: pointer; 
     border: none;
     color: white;
@@ -188,4 +189,31 @@ padding: 20px 0 0 20px;
 
 
 /* ________________ starting of responsive  styles ______________*/
+@media screen and (max-width:980px) {
+    .main_container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        height: 100%;
+        width: 100%;
+       
+        
+      
+    }
+    .asid_section{
+        height: fit-content;
+        width: fit-content;
+        border-radius: 24px;
+    }
+    .asid_content{
+        height: 400px;
+        
+    }
+
+    
+    
+   
+    
+}
 
