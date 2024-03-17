@@ -37,8 +37,8 @@
 
 .asid_section{
     
-    background: linear-gradient(217.64deg, var(--secondery-color) -5.84%, var(--main-color) 106.73%),
-    url(./img/background.png) no-repeat;
+    background: linear-gradient(217.64deg, #9181f4c7 -5.84%, #5038edf0 106.73%),
+     url(./img/background.png) no-repeat;
     color: white; 
     padding: 15px;
 }
